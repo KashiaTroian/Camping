@@ -101,15 +101,17 @@
 	min-height: 100vh;
 }
 .foolscreen__header{
-	position: relative;
-	z-index: 2;
+	position: fixed;
+	z-index: 20;
 	background: #FFFFFF;
-	padding: 20px 0 20px;
+	padding: 10px 0;
+	left: 0;
+right: 0;
 }
 .header__wrapper{
 	display: flex;
 	justify-content: space-between;
-	align-items:  self-end;;
+	align-items:  center;
 }
 .nav__list {
 	display: flex;
@@ -155,13 +157,13 @@
 .foolscreen__content{
 	position: relative;
 	z-index: 2;
-	padding: 136px 0;
+	padding-top: 152px;
 }
 .main__title {
 font-family: 'Alegreya SC';
 font-style: normal;
 font-weight: 400;
-font-size: 92px;
+font-size: 80px;
 line-height: 75px;
 letter-spacing: 0.08em;
 text-transform: uppercase;
@@ -174,7 +176,7 @@ color: #E9FFEF;
 	display: flex;
 max-width: 460px;
 justify-content: space-between;
-padding-top: 78px;
+padding-top: 42px;
 }
 .btn {
 	display: block;
