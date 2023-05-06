@@ -327,3 +327,61 @@ text-align: right;
 .advice-box__link:hover{
 	background-size: 100% 1px;
 }
+
+.info__price {
+	background-image: url(/images/prise-bg.svg);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	padding: 40px 0;
+}
+
+.info__price-content {
+	display: flex;
+}
+.info__price-item {
+	position: relative;
+	padding-left: 30px;
+	min-width: 390px;
+	font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #003616;
+margin-top: 24px;
+}
+
+.info__price-title {
+	font-family: 'Alegreya SC';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 41px;
+margin-bottom: 24px;
+color: #003616;
+}
+.info__price-list {
+	min-width: 390px;
+}
+.marck-green::before {
+	content: '';
+	background-image: url(/images/marck-green.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	width: 25px;
+	height: 15px;
+	top: 2px;
+	left: 2px;
+}
+.marck-red::before {
+	content: '';
+	background-image: url(/images/marck-red.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	width: 25px;
+	height: 15px;
+	top: 2px;
+	left: 2px;
+}
