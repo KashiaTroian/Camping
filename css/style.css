@@ -186,13 +186,14 @@ h6 {
 }
 
 .header__phone:hover {
-  background-size: 100% 1.6px;
+  background-size: 100% 1px;
 }
 
 .foolscreen__content {
   position: relative;
   z-index: 2;
   padding-top: 152px;
+  padding-bottom: 152px;
 }
 
 .main__title {
@@ -251,7 +252,7 @@ h6 {
 }
 
 .second__btn:hover {
-  scale: 1.2;
+  scale: 1.1;
 }
 
 .foolscreen__video {
@@ -262,4 +263,128 @@ h6 {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.advice {
+  padding: 76px 0;
+  text-align: center;
+}
+
+.section__title {
+  font-family: "Alegreya SC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 54px;
+  text-transform: uppercase;
+  color: #003616;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.advice__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.advice__link {
+  background: #FFFFFF;
+  -webkit-box-shadow: 4px 4px 1px rgba(217, 217, 217, 0.14);
+          box-shadow: 4px 4px 1px rgba(217, 217, 217, 0.14);
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+.advice__link:hover {
+  scale: 1.1;
+}
+
+.advice__info {
+  padding: 0 12px 24px 8px;
+}
+
+.advice__title {
+  font-family: "Alegreya SC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 41px;
+  color: #003616;
+  margin-top: 8px;
+}
+
+.advice__subtitle {
+  font-family: "Alegreya SC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #003616;
+  margin-top: 4px;
+}
+
+.advice__price {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #003616;
+  margin-top: 8px;
+}
+
+.info__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 16px;
+}
+
+.advice__key {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.08em;
+  color: #003616;
+  width: 110px;
+  margin-right: 38px;
+}
+
+.advice__value {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.08em;
+  color: #003616;
+}
+
+.info__link {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #003616;
+}
+
+.info-box__link {
+  margin-top: 16px;
+  text-align: right;
+}
+
+.advice-box__link:hover {
+  background-size: 100% 1px;
 }
