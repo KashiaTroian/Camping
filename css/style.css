@@ -297,10 +297,19 @@ h6 {
           box-shadow: 4px 4px 1px rgba(217, 217, 217, 0.14);
   -webkit-transition: all 0.8s ease-in-out;
   transition: all 0.8s ease-in-out;
+  overflow: hidden;
 }
 
 .advice__link:hover {
   scale: 1.1;
+}
+
+.advice__img {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 .advice__info {
@@ -367,6 +376,7 @@ h6 {
   line-height: 18px;
   letter-spacing: 0.08em;
   color: #003616;
+  text-align: left;
 }
 
 .info__link {

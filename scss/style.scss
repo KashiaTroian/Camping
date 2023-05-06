@@ -239,11 +239,15 @@ text-align: center;
 	background: #FFFFFF;
 box-shadow: 4px 4px 1px rgba(217, 217, 217, 0.14);
 transition: all 0.8s ease-in-out;
+overflow: hidden;
 }
 .advice__link:hover{
 	scale: 1.1;
 }
 .advice__img {
+max-width: 100%;
+object-fit: cover;
+object-position: center;
 }
 .advice__info {
 	padding: 0 12px 24px 8px;
@@ -304,6 +308,7 @@ font-size: 16px;
 line-height: 18px;
 letter-spacing: 0.08em;
 color: #003616;
+text-align: left;
 }
 .info__link{
 	font-family: 'Ubuntu';
