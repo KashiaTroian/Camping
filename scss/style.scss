@@ -367,7 +367,7 @@ color: #003616;
 }
 .marck-green::before {
 	content: '';
-	background-image: url(/images/marck-green.svg);
+	background-image: url(../images/marck-green.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: absolute;
@@ -378,7 +378,7 @@ color: #003616;
 }
 .marck-red::before {
 	content: '';
-	background-image: url(/images/marck-red.svg);
+	background-image: url(../images/marck-red.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: absolute;
