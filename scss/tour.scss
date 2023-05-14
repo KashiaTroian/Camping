@@ -1,0 +1,51 @@
+.tour__main {
+	padding-top: 74px;
+	position: relative;
+}
+.title__section{
+	display: flex;
+	align-items: baseline;
+justify-content: space-between;
+}
+.emotion__title{
+	font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: 0.08em;
+color: #426D53;
+margin-bottom: 8px;
+}
+.emotion__images{
+	display: flex;
+	gap: 8px;
+}
+.tour__title {
+	font-family: 'Alegreya SC';
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 75px;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+color: #003616;
+margin-bottom: 18px;
+}
+.tour__subtitle{
+	font-family: 'Alegreya SC';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 20px;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+color: #003616;
+}
+.tour__bg{
+	margin-top: 24px;
+	width: 100%;
+	object-fit: cover;
+	overflow: hidden;
+	max-height: 540px;
+}
