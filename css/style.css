@@ -469,6 +469,7 @@ h6 {
 .tour__main {
   padding-top: 74px;
   position: relative;
+  margin-bottom: 72px;
 }
 
 .title__section {
@@ -531,4 +532,81 @@ h6 {
      object-fit: cover;
   overflow: hidden;
   max-height: 540px;
+}
+
+.info {
+  margin-bottom: 72px;
+}
+
+.info__video {
+  max-height: 364px;
+}
+
+.info__wrap {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 20px 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+.list__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.prise__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: self-end;
+      -ms-flex-align: self-end;
+          align-items: self-end;
+}
+
+.info__key {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.08em;
+  color: #003616;
+  width: 110px;
+  margin-right: 68px;
+}
+
+.info__value {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.08em;
+  color: #003616;
+  text-align: left;
+}
+
+.price {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+  text-align: right;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #003616;
 }
